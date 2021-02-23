@@ -74,7 +74,7 @@ To implement a tree learning algorithm on a sample from MNIST, one must determin
 x, y) in the picture is more than 128?
 * Second version:
   Pre-processing:
-    Before running the algorithm, we perform a pre-processing on the training set. The process we perform on the input is called Deskewing. After running the process we get a new CSV file with the corrections made during this process.  
+    Before running the algorithm, we perform a pre-processing on the training set. The process we perform on the input is called [**Deskewing.**](https://fsix.github.io/mnist/Deskewing.html) After running the process we get a new CSV file with the corrections made during this process.  
  Upon that, we chose a combination of 3 different set of conditions:
     1. The set of conditions we implemented in version 1 of the algorithm.
     2. Is the sum of the pixels on some diagonal in a given image is higher than the threshold.
