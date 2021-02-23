@@ -4,7 +4,7 @@ In this project we will implement an algorithm that learns to recognize handwrit
 # Table of contents
 <!--ts-->
    * [The learning algorithm](#The-learning-algorithm)
-   * [Decision Trees] (#Decision Trees)  
+   * [Decision Trees](#Decision Trees)  
    * [Select the decision tree](#Select-the-decision-tree)  
    * [Select the tree size](#Select-the-tree-size)  
    * [The data set format](#The-data-set-format) 
