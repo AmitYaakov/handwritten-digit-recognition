@@ -62,8 +62,8 @@ At the end of the pass on all the values of T, we select the value of T for whic
 The data-set format
 ========= 
 
-We will run the algorithm on a data-set called MNIST. You can read about it here: / http://yann.lecun.com/exdb/mnist
-MNIST contains images of 28x28 handwritten digits, with each pixel in the image represented by a value between 0 and 255 that determines its degree of gray. Therefore each image is represented by a vector 748 long of numbers between 0 and 255. The input to the algorithm will be a file describing a training sample, i.e. images and for each image what digit appears in it. We will use a data-set in CSV format described here: /https://pjreddie.com/projects/mnist-in-csv
+We will run the algorithm on a data-set called MNIST. You can read about it [**here.**](http://yann.lecun.com/exdb/mnist)<br>
+MNIST contains images of 28x28 handwritten digits, with each pixel in the image represented by a value between 0 and 255 that determines its degree of gray. Therefore each image is represented by a vector 748 long of numbers between 0 and 255. The input to the algorithm will be a file describing a training sample, i.e. images and for each image what digit appears in it. We will use a data-set in CSV format described  [**here.**](https://pjreddie.com/projects/mnist-in-csv)<br>
 The learning algorithm will receive a training sample in the format described and will produce a file describing the tree it studied. The prediction algorithm will then receive the file describing the tree and a test sample in the same format  and will return the list of predicted labels for the samples in the test sample according to the tree in the file.
 
 The conditions groups
