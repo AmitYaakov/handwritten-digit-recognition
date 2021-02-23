@@ -85,7 +85,7 @@ How to run
 Make sure you have java and pyhton on your machine.
 1. clone the project.
 2. Open the project folder and add your csv files- train and test files.
-3. For building the tree run: ./learntree <1/2> <P> <L> <trainingset_filename> <outputtree_filename>
+3. For building the tree run:  ./learntree <1/2> <P> <L> <trainingset_filename> <outputtree_filename>
 where: 
 1/2 - which version of the learning algorithm to run. 1 - the first version with the given conditions, 2 - the second version.
 P - the percent of the training set that should be used for validation
