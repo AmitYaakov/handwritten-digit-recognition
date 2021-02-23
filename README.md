@@ -87,14 +87,14 @@ Make sure you have java and pyhton on your machine.
 1. clone the project.
 2. Open the project folder and add your csv files- train and test files.
 3. For building the tree run:  ./learntree <1/2> <P> <L> <trainingset_filename> <outputtree_filename>
-where: 
-1/2 - which version of the learning algorithm to run. 1 - the first version with the given conditions, 2 - the second version.
-P - the percent of the training set that should be used for validation
-L - the maximal power of 2 for tree sizes T
-trainingset_filename - the name/path of the training set file. The format of this file is the CSV format mentioned above. Each line represents a single example. The file can have any number of lines depending on the size of the input training set.  
+where:<br/> 
+1/2 - which version of the learning algorithm to run. 1 - the first version with the given conditions, 2 - the second version.<br/> 
+P - the percent of the training set that should be used for validation.<br/> 
+L - the maximal power of 2 for tree sizes T.<br/> 
+trainingset_filename - the name/path of the training set file. The format of this file is the CSV format mentioned above. Each line represents a single example. The file can have any number of lines depending on the size of the input training set.<br/> 
 outputtree_filename - the name/path of the file into which the algorithm will output the decision tree that it learned based on the training set.
-4. For prediction run: ./predict <tree_filename> <testset_filename>
-where:
-tree_filename - the name/path of the file that describes the tree to use for prediction. This will be a file that was output by running "learntree", with the first version or the second version of the algorithm.  
+4. For prediction run: ./predict <tree_filename> <testset_filename><br/> 
+where:<br/> 
+tree_filename - the name/path of the file that describes the tree to use for prediction. This will be a file that was output by running "learntree", with the first version or the second version of the algorithm.<br/>   
 testset_filename - the name/path of the file that includes the test examples which you should predict, in the CSV format mentioned above.
 
