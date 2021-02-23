@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ $1 -eq '2' ]
+then
+    filename=$(basename $4) 
+    python3 deksew.py $4
+    new_path="/tmp/mnist_files/desk_$filename"
+    java -jar $(dirname $0)/InformationAnalyze.jar $1 $2 $3 $new_path $5
+else
+    java -jar $(dirname $0)/InformationAnalyze.jar $1 $2 $3 $4 $5
+fi
+

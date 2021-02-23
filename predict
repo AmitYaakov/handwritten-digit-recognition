@@ -1,0 +1,15 @@
+#!/bin/bash
+
+x=$(awk -F, '{print $1}' $1)
+if [ $x -eq 2 ]
+then
+    filename=$(basename $2) 
+    python3 deksew.py $2
+    new_path="/tmp/mnist_files/desk_$filename"
+    java -cp $(dirname $0)/InformationAnalyze.jar miniProject.PredictMain $1 $new_path
+    new_path="/tmp/mnist_files/"
+    rm -rf $new_path 
+else
+    java -cp $(dirname $0)/InformationAnalyze.jar miniProject.PredictMain $1 $2
+fi
+
